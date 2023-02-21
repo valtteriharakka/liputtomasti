@@ -97,7 +97,7 @@ span.kertalippu {
 }
 
 .Matkustusalue {
-    padding-left: 46%;
+    padding-left: 44%;
     padding-top: 5rem;
     font-size: 11rem;
     text-align: center;
@@ -136,7 +136,7 @@ footer {
     justify-content: center;
     align-items: center;
     border-top: 0.2rem solid #ddd;
-    font-weight: 600;
+    font-weight: 600!important;
     padding: 2rem 0 2rem 0;
 }
 
@@ -164,6 +164,10 @@ img#footerimg2 {
         background-size: cover;
     }
   }
+
+  .Historia {
+    padding-top: 3rem;
+}
 
 span.Ostohistoria {
     padding-top:2rem;
