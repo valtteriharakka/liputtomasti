@@ -1,0 +1,176 @@
+body{
+    font-size: 2.6rem;
+    font-family: 'Nunito', sans-serif;
+    color: #333333;
+    font-weight: 300;
+    background-color: #f1f1f2;
+}
+
+p {
+    margin: 2rem 0 2rem 0;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    box-sizing: content-box;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    padding-top: env(safe-area-inset-top);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.2rem solid #ddd;
+    font-weight: 600;
+}
+
+.header-osta, .header-lippusi {
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-osta{
+    color: #007ac9;
+}
+
+.header-lippusi-p{
+    width:75%;
+    color: #333;
+    border-bottom: 0.6rem solid #007ac9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lippu-tausta {
+    background-image: url(./kuvat/tausta.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 93%;
+    margin-top: 18%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lippu-container {
+    padding: 8% 7% 8% 7%;
+}
+
+.lipputyyppi {
+    padding: 3rem 1.5rem 3rem 1.5rem;
+    border: 0 0 0 0;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #dcdcdc;
+    border-width: 0.2rem;
+}
+
+span.kertalippu {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    padding-left: 1.5rem;
+    font-weight: 800;
+}
+
+.voimassa-asiakasryhmä-wrapper {
+    display: flex;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.Asiakasryhmä,.voimassa{
+    width: 50%;
+}
+
+.Asiakasryhmä {
+    text-align: right;
+}
+
+.kameleontti {
+    background-image: url(./kuvat/hyrrä.svg);
+    height: 22rem;
+    background-size: contain;
+    background-repeat: round;
+    background-color:#007ac9;
+}
+
+.Matkustusalue {
+    padding-left: 46%;
+    padding-top: 5rem;
+    font-size: 11rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: 0.9;
+}
+
+.Matkustusalue-info {
+    width: 50%;
+    padding-left: 49%;
+}
+
+#hyrra {
+    background-color: rgb(77, 31, 31);
+  }
+
+button#osta-uusi-lippu{
+    color: white;
+    background-color: #007ac9;
+    font-size: 5rem;
+    border-radius: 3rem;
+    padding: 1.5rem 7rem 1.5rem 7rem;
+    font-size: 2.5rem;
+    margin: 2rem 0 2rem 0;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.2rem solid #ddd;
+    font-weight: 600;
+    padding: 2rem 0 2rem 0;
+}
+
+span#footer {
+    width: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+img#footerimg,img#footerimg2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+img#footerimg2 {
+    width: 4rem;
+}
+
+@media only screen and (min-width: 900px) {
+    .lippu-tausta {
+        background-size: cover;
+    }
+  }
+
+span.Ostohistoria {
+    padding-top:2rem;
+    display:block;
+    color:#007ac9;
+    font-weight:600;
+    font-size: 3rem;
+    padding-bottom: 12rem;
+    display: block;
+}

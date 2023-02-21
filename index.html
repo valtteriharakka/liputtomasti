@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+    <title>HSL-äppi</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+    </style>
+
+<script src="script.js"></script>
+
+<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+
+</head>
+
+<body onload = "displayTime()">
+        
+    <header>
+        <div class="header-osta">
+                <div class="header-osta-p">
+                    <p>Osta lippu</p>
+                </div>
+            </div>
+
+            <div class="header-lippusi">
+                <div class="header-lippusi-p">
+                    <p>Lippusi</p>
+                </div>
+            </div>
+    </header>
+
+    <div class="lippu-tausta"> 
+        <div class="lippu-container">
+            <div style="overflow: hidden;border-radius: 2rem;">
+
+                <div style="width:38%;margin-left:auto;margin-right:auto;">
+                    <img src="./kuvat/qr-koodi.png" style="width:100%;">
+                </div>
+
+                <div class="sarjanumero" style="text-align: center;color:#322b32;font-weight: 400;">
+                    <p><b>222114</b> 98151397</p>
+                </div>
+                
+                <div class="lipputyyppi">
+                    <img src="./kuvat/kertalippu.svg" style="width:6.5%;">
+                    <span class="kertalippu">Kertalippu</span>
+                </div>
+
+                <div class="voimassa-asiakasryhmä-wrapper">
+
+                    <div class="voimassa">
+                        <span class="voimassa">Voimassa</span><br/>
+                        <img src="./kuvat/vihreä-pallo.svg" style="width:1.5rem;">
+                        <span id="time" style="font-weight:700;font-size: 3rem;padding-left: 0.5rem;">0:00 Asti</span>
+                    </div>
+
+                    <div class="Asiakasryhmä">
+                        <span class="asiakasryhmä">Asiakasryhmä</span><br/>
+                        <span style="font-weight:700;font-size: 3rem;">Aikuinen</span>
+                    </div>
+
+                </div>
+
+                <div class="kameleontti" id="kameleontti">
+
+                    <div class="Matkustusalue">
+                        <span>ABC</span> <br/>
+                    </div>
+                    
+                    <div class="Matkustusalue-info">
+                        <img src="./kuvat/info.svg" style="width:2.5rem;">
+                        <span style="font-weight:600;font-size: 3rem;">Matkustusalue</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Historia" style="text-align:center">
+        <span>Tarvitsetko lipun myös kaverille?</span><br/>
+        <button id="osta-uusi-lippu">Osta uusi lippu</button><br/>
+
+        <hr/>
+
+    <span style="padding-top:2rem;display:block;">Aiemmat lippuostosi</span>
+    <span class="Ostohistoria">Ostohistoria ›</span>
+
+    </div>
+    
+<footer>
+    <span id="footer">
+        <img id ="footerimg" src="./kuvat/koti.svg">Koti</span>
+    <span id="footer">
+        <img id ="footerimg" src="./kuvat/liput.svg">Liput</span>
+    <span id="footer">
+        <img id="footerimg2" src="./kuvat/reittiopas.svg">Reittiopas</span>
+    <span id="footer">
+        <img id ="footerimg" src="./kuvat/lisää.svg">Lisää</span>
+</footer>
+    
+</body>
+</html>
