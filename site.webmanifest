@@ -1,0 +1,7 @@
+{
+    "name": "HSL",
+    "short_name": "HSL",
+    "theme_color": "#007ac9",
+    "background_color": "white",
+    "display": "standalone"
+}
